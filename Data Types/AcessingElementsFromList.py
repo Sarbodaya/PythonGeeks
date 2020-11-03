@@ -13,3 +13,7 @@ print(List)
 print("Accessing a element from Multi Dimensional List")
 print(List[0][1])
 print(List[1][2])
+
+# Using remove() Method:
+
+
