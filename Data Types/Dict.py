@@ -108,6 +108,39 @@ Dict.clear()
 print("Deleting a entire Dictionary : ")
 print(Dict)
 
+# str(Dic)
+
+D1 = {'Name': 'Sarbodaya', 'Age': 19}
+print("The Constituents Of Dict as string : ", str(D1))
+
+# Using items() to display Dict as Lis
+print("The Constituents of Dict as List : ", D1.items())
+
+# len() : It returns count of key entitles of the dictionary Element
+print("The Size of dict : ")
+print(len(D1))
+
+Dict3 = D1.copy()
+print("The new copied Dictionary is : ")
+print(Dict3)
+
+# fromkeys(seq, value) : Used to Declare a new Dict from the sequence mentioned in its arguments
+
+dic1 = {'Name' : 'Sarbodya', 'Age' : '20'}
+dic2 = {'Id': 11804093}
+
+dic1.update(dic2)
+print("Updated Dictionary : ")
+print(str(dic1))
+
+seq = ('Name', 'Age', 'Id')
+
+dict = dict.fromkeys(seq, 5)
+print("The new dictionary values are : ")
+print(str(dict))
+
+
+
 
 
 
