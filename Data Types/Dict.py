@@ -118,7 +118,7 @@ print("The Constituents of Dict as List : ", D1.items())
 
 # len() : It returns count of key entitles of the dictionary Element
 print("The Size of dict : ")
-print(len(D1))
+str =len(D1)
 
 Dict3 = D1.copy()
 print("The new copied Dictionary is : ")

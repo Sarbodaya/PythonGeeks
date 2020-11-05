@@ -52,4 +52,4 @@ print(Tuple1[4:9])
 
 # Deleting a Tupple
 del Tuple1
-print(Tuple1)
+# print(Tuple1)
