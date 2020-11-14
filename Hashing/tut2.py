@@ -25,4 +25,13 @@
 # n = No. of keys to be inserted
 
 # Load factor : Alpha = n/m
-# Expected Chain Length : 
+# Expected Chain Length : Alpha
+# Expected time search : O(1+Alpha)
+# Expected Time To Insert/Delete : O(1+Alpha)
+
+
+
+# Data Structures For Storing Chainings
+# 1. Linked List
+# 2. Dynamic Sized Arrays (Vector in c++, Array List In Java, List in Python)
+# 3. Self Balancing BST : (AVL Tree, Red Black Tree) : O(log l)
