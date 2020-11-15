@@ -17,7 +17,7 @@ class Myhash:
         if x in self.table[i]:
             self.table[i].remove(x)
         else:
-            print(f"{x} is not present in tabele")
+            print(f"{x} is not present in table")
         
 
 h = Myhash(7)
