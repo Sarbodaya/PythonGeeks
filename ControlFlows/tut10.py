@@ -3,7 +3,7 @@
 
 def numbersTostring(argument):
     switcher = {
-        0: "zer0",
+        0: "zero",
         1: "one",
         2: "two",
     }
